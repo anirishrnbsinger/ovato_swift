@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5B8527382C9DE6D60095C11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8527182C9DE6D30095C11E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B85271F2C9DE6D30095C11E;
+			remoteInfo = Ovato;
+		};
+		5B8527422C9DE6D60095C11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8527182C9DE6D30095C11E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B85271F2C9DE6D30095C11E;
+			remoteInfo = Ovato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B8527202C9DE6D30095C11E /* Ovato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ovato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8527372C9DE6D60095C11E /* OvatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8527412C9DE6D60095C11E /* OvatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5B8527222C9DE6D30095C11E /* Ovato */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ovato;
+			sourceTree = "<group>";
+		};
+		5B85273A2C9DE6D60095C11E /* OvatoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OvatoTests;
+			sourceTree = "<group>";
+		};
+		5B8527442C9DE6D60095C11E /* OvatoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OvatoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B85271D2C9DE6D30095C11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8527342C9DE6D60095C11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B85273E2C9DE6D60095C11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8527172C9DE6D30095C11E = {
+			isa = PBXGroup;
+			children = (
+				5B8527222C9DE6D30095C11E /* Ovato */,
+				5B85273A2C9DE6D60095C11E /* OvatoTests */,
+				5B8527442C9DE6D60095C11E /* OvatoUITests */,
+				5B8527212C9DE6D30095C11E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B8527212C9DE6D30095C11E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B8527202C9DE6D30095C11E /* Ovato.app */,
+				5B8527372C9DE6D60095C11E /* OvatoTests.xctest */,
+				5B8527412C9DE6D60095C11E /* OvatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B85271F2C9DE6D30095C11E /* Ovato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B85274A2C9DE6D60095C11E /* Build configuration list for PBXNativeTarget "Ovato" */;
+			buildPhases = (
+				5B85271C2C9DE6D30095C11E /* Sources */,
+				5B85271D2C9DE6D30095C11E /* Frameworks */,
+				5B85271E2C9DE6D30095C11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5B8527222C9DE6D30095C11E /* Ovato */,
+			);
+			name = Ovato;
+			packageProductDependencies = (
+			);
+			productName = Ovato;
+			productReference = 5B8527202C9DE6D30095C11E /* Ovato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B8527362C9DE6D60095C11E /* OvatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B85274F2C9DE6D60095C11E /* Build configuration list for PBXNativeTarget "OvatoTests" */;
+			buildPhases = (
+				5B8527332C9DE6D60095C11E /* Sources */,
+				5B8527342C9DE6D60095C11E /* Frameworks */,
+				5B8527352C9DE6D60095C11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8527392C9DE6D60095C11E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5B85273A2C9DE6D60095C11E /* OvatoTests */,
+			);
+			name = OvatoTests;
+			packageProductDependencies = (
+			);
+			productName = OvatoTests;
+			productReference = 5B8527372C9DE6D60095C11E /* OvatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B8527402C9DE6D60095C11E /* OvatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8527522C9DE6D60095C11E /* Build configuration list for PBXNativeTarget "OvatoUITests" */;
+			buildPhases = (
+				5B85273D2C9DE6D60095C11E /* Sources */,
+				5B85273E2C9DE6D60095C11E /* Frameworks */,
+				5B85273F2C9DE6D60095C11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8527432C9DE6D60095C11E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5B8527442C9DE6D60095C11E /* OvatoUITests */,
+			);
+			name = OvatoUITests;
+			packageProductDependencies = (
+			);
+			productName = OvatoUITests;
+			productReference = 5B8527412C9DE6D60095C11E /* OvatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B8527182C9DE6D30095C11E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5B85271F2C9DE6D30095C11E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5B8527362C9DE6D60095C11E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5B85271F2C9DE6D30095C11E;
+					};
+					5B8527402C9DE6D60095C11E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5B85271F2C9DE6D30095C11E;
+					};
+				};
+			};
+			buildConfigurationList = 5B85271B2C9DE6D30095C11E /* Build configuration list for PBXProject "Ovato" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B8527172C9DE6D30095C11E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5B8527212C9DE6D30095C11E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B85271F2C9DE6D30095C11E /* Ovato */,
+				5B8527362C9DE6D60095C11E /* OvatoTests */,
+				5B8527402C9DE6D60095C11E /* OvatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B85271E2C9DE6D30095C11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8527352C9DE6D60095C11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B85273F2C9DE6D60095C11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B85271C2C9DE6D30095C11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8527332C9DE6D60095C11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B85273D2C9DE6D60095C11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B8527392C9DE6D60095C11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B85271F2C9DE6D30095C11E /* Ovato */;
+			targetProxy = 5B8527382C9DE6D60095C11E /* PBXContainerItemProxy */;
+		};
+		5B8527432C9DE6D60095C11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B85271F2C9DE6D30095C11E /* Ovato */;
+			targetProxy = 5B8527422C9DE6D60095C11E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B85274B2C9DE6D60095C11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ovato/Ovato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ovato/Preview Content\"";
+				DEVELOPMENT_TEAM = V2EL4GV286;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ovato/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.ovato.to.the.moon.Ovato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B85274C2C9DE6D60095C11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ovato/Ovato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ovato/Preview Content\"";
+				DEVELOPMENT_TEAM = V2EL4GV286;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ovato/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.ovato.to.the.moon.Ovato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B85274D2C9DE6D60095C11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B85274E2C9DE6D60095C11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B8527502C9DE6D60095C11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2EL4GV286;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.ovato.to.the.moon.OvatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ovato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ovato";
+			};
+			name = Debug;
+		};
+		5B8527512C9DE6D60095C11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2EL4GV286;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.ovato.to.the.moon.OvatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ovato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ovato";
+			};
+			name = Release;
+		};
+		5B8527532C9DE6D60095C11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2EL4GV286;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.ovato.to.the.moon.OvatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ovato;
+			};
+			name = Debug;
+		};
+		5B8527542C9DE6D60095C11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2EL4GV286;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.ovato.to.the.moon.OvatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ovato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B85271B2C9DE6D30095C11E /* Build configuration list for PBXProject "Ovato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B85274D2C9DE6D60095C11E /* Debug */,
+				5B85274E2C9DE6D60095C11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B85274A2C9DE6D60095C11E /* Build configuration list for PBXNativeTarget "Ovato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B85274B2C9DE6D60095C11E /* Debug */,
+				5B85274C2C9DE6D60095C11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B85274F2C9DE6D60095C11E /* Build configuration list for PBXNativeTarget "OvatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8527502C9DE6D60095C11E /* Debug */,
+				5B8527512C9DE6D60095C11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8527522C9DE6D60095C11E /* Build configuration list for PBXNativeTarget "OvatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8527532C9DE6D60095C11E /* Debug */,
+				5B8527542C9DE6D60095C11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B8527182C9DE6D30095C11E /* Project object */;
+}
